@@ -29,7 +29,6 @@ function App() {
         <div>
           <div>
             <button className="btn1">View pricing</button>
-            <button className="btn1">View pricing</button>
           </div>
           <button className="btn2">Get a demo</button>
         </div>
