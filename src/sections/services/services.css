@@ -75,3 +75,22 @@
     margin-top: 10px;
   }
 }
+
+@media screen and (max-width: 400px) {
+  .services .heading {
+    margin-top: 70px;
+    padding: 0 20px;
+  }
+  .services .heading h1 {
+    height: fit-content;
+  }
+
+  .services-wrap {
+    grid-template-columns: repeat(auto-fill, minmax(320px, 320px));
+  }
+  .services-wrap .service-box {
+    padding: 20px;
+    width: 320px;
+    height: fit-content;
+  }
+}

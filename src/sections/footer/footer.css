@@ -48,6 +48,7 @@ footer .sub button {
   font-weight: 900;
   line-height: 16px;
   color: #ffffff;
+  border: none;
 }
 
 footer .links-wrap {
@@ -93,5 +94,31 @@ footer .links-wrap ul li:hover {
   footer .links-wrap ul {
     margin-left: 0px;
     margin-right: 20px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  footer {
+    width: 100%;
+    height: fit-content;
+    margin-top: 50px;
+    flex-direction: column;
+    padding: 30px;
+  }
+
+  footer .sub {
+    padding: 20px;
+    width: 100%;
+    height: fit-content;
+    align-items: center;
+  }
+  footer .links-wrap {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  footer .links-wrap ul {
+    margin-right: 0px;
   }
 }

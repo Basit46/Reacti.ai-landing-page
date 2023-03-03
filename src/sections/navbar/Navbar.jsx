@@ -1,12 +1,16 @@
 import React, { useState } from "react";
 import "./navbar.css";
-import { FaBars } from "react-icons/fa";
+import { FaBars, FaTimes } from "react-icons/fa";
 
 const Navbar = () => {
   const [show, setShow] = useState(false);
 
   const handleShow = () => {
-    setShow(!show);
+    setShow(true);
+  };
+
+  const handleHide = () => {
+    setShow(false);
   };
 
   return (
@@ -14,19 +18,20 @@ const Navbar = () => {
       <h1 className="logo">REACT.AI</h1>
 
       <ul className={`navlinks ${show ? "show" : "hide"}`}>
-        <li>
+        <FaTimes onClick={handleHide} />
+        <li onClick={handleHide}>
           <a href="#About">Home</a>
         </li>
-        <li>
+        <li onClick={handleHide}>
           <a href="#About">About</a>
         </li>
-        <li>
+        <li onClick={handleHide}>
           <a href="#About">Features</a>
         </li>
-        <li>
+        <li onClick={handleHide}>
           <a href="#About">Pricing</a>
         </li>
-        <li>
+        <li onClick={handleHide}>
           <a href="#About">Blog</a>
         </li>
       </ul>

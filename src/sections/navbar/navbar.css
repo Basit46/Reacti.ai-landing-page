@@ -1,5 +1,4 @@
 nav {
-  position: relative;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -45,7 +44,8 @@ nav {
   color: #ffffff;
   font-weight: 900;
 }
-nav svg {
+nav svg,
+svg {
   display: none;
 }
 
@@ -69,13 +69,14 @@ nav svg {
     padding: 25px 50px;
   }
   .navlinks {
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
     width: 100vw;
     height: 100vh;
+    z-index: 10;
     background-color: #060b27;
 
     display: flex;
@@ -85,6 +86,15 @@ nav svg {
   }
   .hide {
     display: none;
+  }
+
+  .navlinks svg {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    color: red;
+    display: block;
+    font-size: 3rem;
   }
 
   .navlinks li {
@@ -103,9 +113,14 @@ nav svg {
     opacity: 1;
   }
 
-  nav svg {
+  nav > svg {
     display: block;
-    z-index: 3;
     font-size: 2rem;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  nav {
+    padding: 25px 20px;
   }
 }

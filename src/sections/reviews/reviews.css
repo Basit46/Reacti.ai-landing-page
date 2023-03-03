@@ -88,3 +88,25 @@
     text-align: start;
   }
 }
+
+@media screen and (max-width: 400px) {
+  .reviews {
+    padding: 20px;
+  }
+  .reviews .heading {
+    margin-top: 50px;
+  }
+
+  .reviews .reviews-wrap {
+    margin-top: 40px;
+
+    grid-template-columns: repeat(auto-fill, minmax(300px, 300px));
+    grid-row-gap: 24px;
+  }
+  .reviews .reviews-wrap .review-box {
+    width: 300px;
+  }
+  .reviews .reviews-wrap .review-box .bg {
+    display: none;
+  }
+}

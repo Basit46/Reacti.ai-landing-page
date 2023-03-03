@@ -51,6 +51,7 @@
   border-radius: 36px;
   color: #ffffff;
   margin-right: 30px;
+  border: none;
 }
 .btns .btn2 {
   padding: 15px 25px;
@@ -269,5 +270,49 @@
 @media screen and (max-width: 730px) {
   .section2 .info-boxes {
     grid-template-columns: repeat(1, 318px);
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .hero {
+    padding: 0 20px;
+  }
+
+  .section1 h1 {
+    font-size: 40px;
+  }
+  .section1 h2 {
+    font-size: 40px;
+  }
+
+  .section2 {
+    padding: 0px;
+    width: 100%;
+  }
+  .section2 .labels {
+    width: 100%;
+  }
+  .section2 .labels .left h1 {
+    margin-bottom: 15px;
+  }
+  .section2 .labels .right {
+    margin-top: 5px;
+  }
+  .hero .navbar {
+    display: flex;
+    flex-direction: column;
+  }
+  .hero .navbar ul {
+    margin: 20px 0px;
+  }
+
+  .hero .navbar {
+    width: 100%;
+  }
+  .hero .navbar .input {
+    width: 100%;
+  }
+  .hero .navbar ul {
+    margin: 20px 0px;
   }
 }

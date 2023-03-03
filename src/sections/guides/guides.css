@@ -216,8 +216,48 @@
     text-align: start;
   }
 }
+
 @media screen and (max-width: 600px) {
   .guides .card1 img {
     width: 100%;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .guides {
+    padding: 0px 20px;
+  }
+
+  .guides .card1 div ol li {
+    margin-top: 10px;
+  }
+
+  .guides .card2 {
+    padding: 0px;
+  }
+  .guides .card2 div div {
+    padding: 30px;
+  }
+  .guides .card2 div div ol li {
+    margin-top: 10px;
+  }
+  .guides .card2 > img {
+    padding: 30px 30px;
+  }
+
+  .guides .btns {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+  }
+  .guides .btns div {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .guides .btns div .btn1 {
+    margin-bottom: 10px;
   }
 }

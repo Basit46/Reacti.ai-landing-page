@@ -8,6 +8,7 @@
 }
 
 body {
+  position: relative;
   width: 100vw;
   overflow-x: hidden;
   background-color: #060b27;
