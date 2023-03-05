@@ -8,7 +8,7 @@ footer {
   margin-top: 140px;
 
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: flex-start;
 }
 
@@ -32,6 +32,7 @@ footer .sub h1 {
   color: #f6f6f7;
 }
 footer .sub input {
+  width: 100%;
   padding: 10px 27px;
   background: #0e1330;
   border: 1px solid #282d45;
@@ -40,6 +41,7 @@ footer .sub input {
   color: white;
 }
 footer .sub button {
+  width: 100%;
   padding: 15px 85px;
   background: #7214ff;
   border-radius: 36px;
@@ -56,7 +58,7 @@ footer .links-wrap {
   align-items: center;
 }
 footer .links-wrap ul {
-  margin-left: 120px;
+  margin-left: 158px;
 }
 footer .links-wrap ul h1 {
   font-family: Arial, Helvetica, sans-serif;

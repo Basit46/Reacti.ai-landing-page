@@ -15,7 +15,7 @@ const Navbar = () => {
 
   return (
     <nav>
-      <h1 className="logo">REACT.AI</h1>
+      <h1 className="logo">REACTI.AI</h1>
 
       <ul className={`navlinks ${show ? "show" : "hide"}`}>
         <FaTimes onClick={handleHide} />

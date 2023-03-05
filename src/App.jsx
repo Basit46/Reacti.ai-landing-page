@@ -6,7 +6,7 @@ import Services from "./sections/services/Services";
 import twitterHome from "./assets/Frame 49.png";
 import Reviews from "./sections/reviews/Reviews";
 import Community from "./sections/community/Community";
-import Blog from "./sections/blog/Blog";
+// import Blog from "./sections/blog/Blog";
 import Footer from "./sections/footer/Footer";
 
 function App() {
@@ -23,16 +23,16 @@ function App() {
       </div>
       <Reviews />
       <Community />
-      <Blog />
+      {/* <Blog /> */}
       <Footer />
-      <div className="btns-section">
+      {/* <div className="btns-section">
         <div>
           <div>
             <button className="btn1">View pricing</button>
           </div>
           <button className="btn2">Get a demo</button>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 }
