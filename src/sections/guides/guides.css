@@ -236,8 +236,14 @@
     height: fit-content;
     padding: 70px;
   }
-  .guides .card2 .right img {
+  .guides .card2 .right {
     margin-left: 0px;
+    margin-top: 10px;
+    width: 100%;
+  }
+  .guides .card2 .right img {
+    /* margin-left: 0px; */
+    width: 100%;
     padding: 30px 70px;
   }
 }
