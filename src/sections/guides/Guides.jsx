@@ -62,7 +62,7 @@ const Guides = () => {
       <div className="btns">
         <div>
           <button className="btn1">Get a Started</button>
-          <button className="btn2">Browse all feature</button>
+          <button className="btn2">Browse all features</button>
         </div>
       </div>
     </div>
