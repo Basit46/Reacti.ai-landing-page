@@ -314,4 +314,7 @@
   .guides .btns div .btn1 {
     margin-bottom: 10px;
   }
+  .blur {
+    display: none;
+  }
 }
