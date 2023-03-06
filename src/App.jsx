@@ -7,11 +7,14 @@ import twitterHome from "./assets/Frame 49.png";
 import Reviews from "./sections/reviews/Reviews";
 import Community from "./sections/community/Community";
 import Footer from "./sections/footer/Footer";
+import { useState } from "react";
 
 function App() {
+  const [show, setShow] = useState(false);
+
   return (
-    <div>
-      <Navbar />
+    <div className={show && "hidden"}>
+      <Navbar show={show} setShow={setShow} />
       <Hero />
       <Services />
       <Guides />

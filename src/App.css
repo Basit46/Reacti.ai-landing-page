@@ -14,6 +14,10 @@ body {
   background-color: #060b27;
   color: white;
 }
+.hidden {
+  height: 100vh;
+  overflow-y: hidden;
+}
 
 .twitterImg-wrap {
   width: 100%;

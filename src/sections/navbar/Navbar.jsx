@@ -1,10 +1,8 @@
-import React, { useState } from "react";
+import React from "react";
 import "./navbar.css";
 import { FaBars, FaTimes } from "react-icons/fa";
 
-const Navbar = () => {
-  const [show, setShow] = useState(false);
-
+const Navbar = ({ show, setShow }) => {
   const handleShow = () => {
     setShow(true);
   };
